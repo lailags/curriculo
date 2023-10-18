@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img/fundo.jpg');
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form h2 {
+    font-size: 24px;
+}
+
+form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+}
+#profile-icon {
+    
+        font-size: 80px; /* Tamanho  do icone desejado,  */
+        position: relative; /* ajustar o posicionamento */
+        top: -10px; /* mover o ícone para cima */
+        background-position: top;
+        display: block; /*  posicionamento corretamente */
+    }
+    img {
+        width: 150px; 
+        height: 150px; 
+        display: block; /* Torna a imagem um bloco para centralizá-la */
+        margin: 0 auto; /* Margem automática horizontalmente */
+        border-radius: 50%; 
+    }
+    
+
